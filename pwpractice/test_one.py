@@ -7,7 +7,7 @@ def test_verifyPageUrl(page:Page):
 
 def test_verifyTitle(page:Page):
     page.goto("https://omayo.blogspot.com/")
-    expect(page).to_have_title("omayo(QAFox.com)")
+    expect(page).to_have_title("omayo (QAFox.com)")
 
 
 
